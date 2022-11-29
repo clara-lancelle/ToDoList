@@ -1,0 +1,106 @@
+body{
+    background-color: rgb(210 210 210);
+}
+
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-weight: 100;
+}
+
+h2 {
+    font-variant: all-small-caps;
+    font-weight: 300;
+    background-color: rgb(84, 33, 49);
+    color: aliceblue;
+    width: 100%;
+    padding: 1rem 0;
+    text-align: center;
+    margin: 0 auto;
+}
+section {
+    width: 25rem;
+    height: 40rem;
+    background-color: #8f3f65;
+    margin: 0 auto;
+}
+
+form {
+    display: grid;
+    align-items: center;
+}
+
+.add {
+    display: grid;
+    grid-template-columns: 80% 20%;
+    align-items: center;
+    justify-items: center;
+    height: 3rem;
+    margin: 0.5rem 0;
+    width: 98%;
+    place-self: center;
+}
+
+.delBtn {
+    
+    width: 2rem;
+    height: 2rem;
+}
+
+.delBtn:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
+
+ul {
+    list-style: none;
+    padding: 0;
+    display: grid;
+    grid-auto-flow: row;
+    margin-top: 0;
+    
+}
+
+li {
+    height: 3rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-bottom: 2px solid #aa5687;
+}
+
+.task {
+    height: 80%;
+    border: none;
+    background-color: inherit;
+    color: aliceblue;
+    width: 70%;
+}
+
+#addItem {
+    
+    border: none;
+    height: 95%;
+    width: 97%;
+
+}
+
+#btn {
+    
+    background-color: cadetblue;
+    height: 100%;
+    width: 90%;
+    border: none;
+    color: aliceblue;
+}
+
+#btn:hover {
+    cursor: pointer;
+    background-color: rgb(129, 207, 210);
+
+}
+
+.completed {
+    text-decoration-line: line-through;
+}
